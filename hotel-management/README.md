@@ -1,4 +1,4 @@
-!{screen short}(https://github.com/yash1880/Hotel-management-project/blob/80fd4f1a5f41bc97f26f221f945e79541ffab7d0/image.png)
+{!screenshot project}(https://github.com/yash1880/Hotel-management-project/blob/80fd4f1a5f41bc97f26f221f945e79541ffab7d0/image.png)
 !{screen short}()
 
 # Hotel Management App
