@@ -21,8 +21,7 @@
 
 /* Navbar transparency blur */
 .navbar {
-  backdrop-filter: blur(10px);
-  background-color: rgba(30, 41, 59, 0.95) !important;
+  background: transparent !important;
 }
 .app-navbar {
   background: linear-gradient(135deg, #0f172a 0%, #0f172a 60%, #111827 100%) !important;
