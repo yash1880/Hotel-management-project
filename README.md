@@ -1,5 +1,5 @@
 ![screenshot project](https://github.com/yash1880/Hotel-management-project/blob/39e29ca1d12bf47437bee79c9090a6beaccd84bd/Screenshot%202026-04-28%20150233.png)
-![screenshot project](https://github.com/yash1880/Hotel-management-project/blob/13621625dc71a3db9b980b778206bb6bb910b6c9/image.png)
+![screenshot project]([https://github.com/yash1880/Hotel-management-project/blob/13621625dc71a3db9b980b778206bb6bb910b6c9/image.png](https://github.com/yash1880/Hotel-management-project/blob/173acb71cf4aa5a76295cc7b3aff924fdafadef1/Screenshot%202026-04-28%20150619.png))
 
 # Hotel Management App
 
