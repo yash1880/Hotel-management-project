@@ -54,7 +54,7 @@ const RoomList = () => {
           <Form.Group>
             <Form.Label className="small fw-bold">Availability</Form.Label>
             <Form.Select onChange={(e) => setFilterStatus(e.target.value)}>
-              <option value="All">All Statuses</option>
+              <option value="All">All Status</option>
               <option value="Available">Available</option>
               <option value="Occupied">Occupied</option>
             </Form.Select>
