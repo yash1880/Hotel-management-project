@@ -1,3 +1,9 @@
+!{screen short}()
+!{screen short}()
+!{screen short}()
+!{screen short}()
+!{screen short}()
+
 # Hotel Management App
 
 A small React + Vite hotel management project for room browsing, booking, and admin reservation management.
@@ -43,6 +49,8 @@ npm run server
 
 This runs `json-server` and serves data from `db.json` on `http://localhost:5000`.
 
+If the server does not start, make sure dependencies are installed and that `json-server` is available in `node_modules`.
+
 3. Start the React app:
 
 ```bash
@@ -85,3 +93,4 @@ This creates a production-ready build in the `dist/` folder.
 
 - If rooms appear disabled unexpectedly, check the `status` values in `db.json`.
 - If the app cannot fetch data, make sure `npm run server` is running on `http://localhost:5000`.
+- If `npm run server` fails to start, verify dependencies with `npm install` and confirm the `json-server` package is installed in `node_modules`.
