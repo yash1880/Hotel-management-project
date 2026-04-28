@@ -1,0 +1,85 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "type": "Deluxe",
+      "price": 2500,
+      "status": "Available",
+      "image": "https://www.ohotelsindia.com/pune/images/afac6de5e93b1d2018cc56a76528cdd2.jpg"
+    },
+    {
+      "id": "2",
+      "type": "Suite",
+      "price": 3000,
+      "status": "Available",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/22/ac/7b/b8/the-amayaa.jpg"
+    },
+    {
+      "id": "3",
+      "type": "Single",
+      "price": 800,
+      "status": "Available",
+      "image": "https://images.pexels.com/photos/5991542/pexels-photo-5991542.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+      "id": "4",
+      "type": "Double",
+      "price": 1800,
+      "status": "Available",
+      "image": "https://images.unsplash.com/photo-1673687782286-674e29c9bf9e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG91YmxlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "5",
+      "type": "Quad Room",
+      "price": 2000,
+      "status": "Available",
+      "image": "https://koreanahotel.com/kr/images/sub/rooms/business_quad_01_03.jpg"
+    },
+    {
+      "id": "6",
+      "type": "Standard",
+      "price": 1200,
+      "status": "Occupied",
+      "image": "https://res.cloudinary.com/maistra/image/upload/w_1920,c_lfill,g_auto,q_auto,dpr_auto/f_auto/v1700658053/Proprietes/Select/Zagreb/Hotel%20International/22.11.23/23074-09-18%20Hotel%20International%20Rooms/23074-09-18%20Hotel%20International%20Rooms%20Standard%20Single%20Use/Webres%202000px/23074-09-18_Hotel_International_Rooms_Classic_Queen_1_2000px_sivgq2.jpg"
+    }
+  ],
+  "reservations": [
+    {
+      "guestName": "Dolly chai wala",
+      "checkIn": "2026-05-01",
+      "checkOut": "2026-05-03",
+      "email": "Dolly@gmail.com",
+      "roomId": "6",
+      "roomType": "Standard",
+      "totalPrice": 1200,
+      "status": "Confirmed",
+      "createdAt": "2026-04-28T08:50:41.832Z",
+      "id": "WwaDeur8B-I"
+    },
+    {
+      "guestName": "Yash Bulchandani",
+      "checkIn": "2026-05-01",
+      "checkOut": "2026-05-04",
+      "email": "yashbulchandani34@gmail.com",
+      "roomId": "2",
+      "roomType": "Suite",
+      "totalPrice": 3000,
+      "status": "Confirmed",
+      "createdAt": "2026-04-28T08:52:48.128Z",
+      "id": "b7LV9zZtkgw"
+    },
+    {
+      "guestName": "Jay Bulchandani",
+      "checkIn": "2026-05-01",
+      "checkOut": "2026-05-04",
+      "email": "Jay2@gmail.com",
+      "roomId": "4",
+      "roomType": "Double",
+      "totalPrice": 1800,
+      "status": "Confirmed",
+      "createdAt": "2026-04-28T08:53:35.728Z",
+      "id": "tCrPp_gdqUA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

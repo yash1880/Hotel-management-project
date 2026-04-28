@@ -1,0 +1,86 @@
+/* Custom Global Styling */
+:root {
+  --bs-primary: #1e293b; /* Sophisticated Slate Blue */
+  --bs-body-bg: #f1f5f9; /* Soft background */
+}
+
+.hotel-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hotel-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.1) !important;
+}
+
+/* Modern Pill Badges */
+.badge.rounded-pill {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Navbar transparency blur */
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(30, 41, 59, 0.95) !important;
+}
+.app-navbar {
+  background: linear-gradient(135deg, #0f172a 0%, #0f172a 60%, #111827 100%) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.app-navbar .navbar-toggler {
+  border-color: rgba(255,255,255,0.18);
+}
+.app-navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+.app-navbar .brand-logo {
+  letter-spacing: 0.15em;
+  font-size: 1.05rem;
+}
+.app-navbar .brand-highlight {
+  color: #22c55e;
+}
+.app-navbar .nav-link-custom {
+  color: rgba(255,255,255,0.85) !important;
+  margin-right: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.app-navbar .nav-link-custom:hover,
+.app-navbar .nav-link-custom.active {
+  background: rgba(255,255,255,0.1);
+  color: #fff !important;
+}
+.app-navbar .nav-button-link {
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.8) !important;
+  padding: 0.55rem 1.5rem;
+}
+.app-navbar .nav-button-link:hover {
+  background: rgba(255,255,255,0.15) !important;
+}
+.app-navbar .login-button {
+  border-color: rgba(255,255,255,0.7) !important;
+}
+/* Buttons ko modern rounded look dene ke liye */
+.btn {
+  border-radius: 10px;
+  padding: 10px 24px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Card images ko perfect banane ke liye */
+.card-img-top {
+  transition: transform 0.5s ease;
+}
+
+.hotel-card:hover .card-img-top {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
